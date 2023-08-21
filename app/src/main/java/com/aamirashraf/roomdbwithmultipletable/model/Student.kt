@@ -2,10 +2,10 @@ package com.aamirashraf.roomdbwithmultipletable.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-
 @Entity
-data class Director(
+data class Student(
     @PrimaryKey(autoGenerate = false)
-    val directorName:String,
+    val studentName:String,
+    val semester:Int,
     val schoolName:String
 )
